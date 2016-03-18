@@ -1,5 +1,5 @@
 //
-//  SecondSubViewController.h
+//  TYTableViewCell.h
 //  TYMasonryDemo
 //
 //  Created by TianYang on 16/3/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondSubViewController : UITableViewController
+@interface TYTableViewCell : UITableViewCell
 
 @end

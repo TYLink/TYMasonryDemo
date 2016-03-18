@@ -17,7 +17,6 @@
     UIView * _ThirdView;
     UIView * _FourthView;
     UIView * _SuperView;
-    
 }
 
 @end
@@ -86,7 +85,6 @@
             make.width      . equalTo (@(SCREEN_WIDTH/2));
             make.height     . equalTo (@(SCREEN_WIDTH/2));
         }];
-    
         _FourthView;
     });
 

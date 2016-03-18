@@ -29,6 +29,7 @@
 		5E42E4811C9B9DC2000F3E7A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42E4761C9B9DC2000F3E7A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		5E42E4821C9B9DC2000F3E7A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42E4781C9B9DC2000F3E7A /* View+MASAdditions.m */; };
 		5E42E4871C9BAA9A000F3E7A /* SettingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42E4861C9BAA9A000F3E7A /* SettingLabel.m */; };
+		5E42E48E1C9C03FA000F3E7A /* TYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E42E48D1C9C03FA000F3E7A /* TYTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		5E42E4831C9B9E0B000F3E7A /* TYMasonryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYMasonryDemo-Prefix.pch"; sourceTree = "<group>"; };
 		5E42E4851C9BAA9A000F3E7A /* SettingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingLabel.h; sourceTree = "<group>"; };
 		5E42E4861C9BAA9A000F3E7A /* SettingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingLabel.m; sourceTree = "<group>"; };
+		5E42E48C1C9C03FA000F3E7A /* TYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTableViewCell.h; path = TYMasonrySubVC/TYMasonrySubView/TYTableViewCell.h; sourceTree = "<group>"; };
+		5E42E48D1C9C03FA000F3E7A /* TYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTableViewCell.m; path = TYMasonrySubVC/TYMasonrySubView/TYTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,7 @@
 		5E42E4551C9B9B3B000F3E7A /* TYMasonrySubVC */ = {
 			isa = PBXGroup;
 			children = (
+				5E42E4881C9C0369000F3E7A /* TYMasonrySubView */,
 				5E42E4561C9B9CD4000F3E7A /* FirstSubViewController.h */,
 				5E42E4571C9B9CD4000F3E7A /* FirstSubViewController.m */,
 				5E42E4591C9B9D12000F3E7A /* SecondSubViewController.h */,
@@ -244,6 +248,15 @@
 				5E42E4861C9BAA9A000F3E7A /* SettingLabel.m */,
 			);
 			path = SettingLabel;
+			sourceTree = "<group>";
+		};
+		5E42E4881C9C0369000F3E7A /* TYMasonrySubView */ = {
+			isa = PBXGroup;
+			children = (
+				5E42E48C1C9C03FA000F3E7A /* TYTableViewCell.h */,
+				5E42E48D1C9C03FA000F3E7A /* TYTableViewCell.m */,
+			);
+			name = TYMasonrySubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +391,7 @@
 			files = (
 				5E42E4801C9B9DC2000F3E7A /* NSArray+MASAdditions.m in Sources */,
 				5E42E47F1C9B9DC2000F3E7A /* MASViewConstraint.m in Sources */,
+				5E42E48E1C9C03FA000F3E7A /* TYTableViewCell.m in Sources */,
 				5E42E45B1C9B9D12000F3E7A /* SecondSubViewController.m in Sources */,
 				5E42E47C1C9B9DC2000F3E7A /* MASConstraintMaker.m in Sources */,
 				5E42E4821C9B9DC2000F3E7A /* View+MASAdditions.m in Sources */,
@@ -622,6 +636,7 @@
 				5E42E44E1C9B938E000F3E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E42E44F1C9B938E000F3E7A /* Build configuration list for PBXNativeTarget "TYMasonryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +645,7 @@
 				5E42E4511C9B938E000F3E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E42E4521C9B938E000F3E7A /* Build configuration list for PBXNativeTarget "TYMasonryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +654,7 @@
 				5E42E4541C9B938E000F3E7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

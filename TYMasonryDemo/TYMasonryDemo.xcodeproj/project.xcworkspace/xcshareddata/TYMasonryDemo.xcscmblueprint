@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "38D9EAC7BB7639F5C5043CDF55E40B072F0557C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "569924f1-0003-4bab-a250-541ec9ecc4cb++1262" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "569924f1-0003-4bab-a250-541ec9ecc4cb++1262" : 0,
+    "38D9EAC7BB7639F5C5043CDF55E40B072F0557C8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ADB991F1-7BB7-459A-89B7-F3D74F928AD7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "569924f1-0003-4bab-a250-541ec9ecc4cb++1262" : "TYMasonryDemo\/TYMasonryDemo\/Masonry\/",
+    "38D9EAC7BB7639F5C5043CDF55E40B072F0557C8" : "TYMasonryDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TYMasonryDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TYMasonryDemo\/TYMasonryDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TianYang1210\/TYMasonryDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38D9EAC7BB7639F5C5043CDF55E40B072F0557C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/121.40.142.61\/svn\/funrepos",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "569924f1-0003-4bab-a250-541ec9ecc4cb++1262"
+    }
+  ]
+}

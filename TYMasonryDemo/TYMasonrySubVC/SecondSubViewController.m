@@ -7,6 +7,7 @@
 //
 
 #import "SecondSubViewController.h"
+#import "TYTableViewCell.h"
 
 @interface SecondSubViewController ()
 
@@ -19,8 +20,40 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"SecondVC";
+    
+    [self initTableView];
+}
+
+-(void) initTableView{
+    
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+
 
 }
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *cellIdentifier = @"CellIdentifier";
+    
+    TYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (!cell) {
+        cell = [[TYTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return 70;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
