@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = @"SecondVC";
+    self.navigationItem.title = @"自定义Cell";
     
     [self initTableView];
 }
